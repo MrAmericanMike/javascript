@@ -12,6 +12,8 @@ export default class Circle {
 
 	init() {
 		console.log("Init a circle");
-		// Do stuff
+		// We have access to all globals
+		console.log("Gravity: " + window.G);
+		console.log("E is: " + E);
 	}
 }
