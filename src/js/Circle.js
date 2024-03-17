@@ -15,5 +15,8 @@ export default class Circle {
 		// We have access to all globals
 		console.log("Gravity: " + window.G);
 		console.log("E is: " + E);
+
+		// And of course the canvas context
+		console.log(CTX);
 	}
 }

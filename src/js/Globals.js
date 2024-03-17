@@ -4,3 +4,6 @@
 window.PI = 3.14;
 window.E = 2.71;
 window.G = 9.81;
+
+window.CANVAS = document.getElementById("canvas");
+window.CTX = CANVAS.getContext("2d");
